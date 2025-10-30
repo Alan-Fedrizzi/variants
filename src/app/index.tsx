@@ -57,6 +57,7 @@ export default function Index() {
     "bleggi@email.com",
     "valdir@email.com",
     "yure@email.com",
+    "hallef@email.com",
   ]);
 
   const [showModal, setShowModal] = useState(MODAL.NONE);
@@ -180,8 +181,8 @@ export default function Index() {
       </View>
 
       <Text className={policy()}>
-        Ao planejar sua viagem pela plann.er voc������ automaticamente concorda com
-        nossos{" "}
+        Ao planejar sua viagem pela plann.er voc������ automaticamente concorda
+        com nossos{" "}
         <Text className={policyHighlight()}>
           termos de uso e pol������������������ticas de privacidade.
         </Text>
